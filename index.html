@@ -10,11 +10,22 @@
       <div id="display">
         <p><span id="display-temperature"></span>&#8451; <span id="display-eco"></span> <span id="display-pu"></span></p>
       </div>
+
       <button id="temperature-up">+</button>
       <button id="temperature-down">-</button>
       <button id="power-saving">eco</button>
       <button id="temperature-reset">reset</button>
       <button id="power-usage">usage</button>
+
+    </div>
+    <div>
+      <select id="cityName">
+        <option disabled selected value>Select City</option>
+        <option value="london">London</option>
+        <option value="paris">Paris</option>
+        <option value="new york">New York</option>
+      </select>
+      <p>City Temperature: <span id="city-temperature"></span></p>
     </div>
     <script src="src/thermostat-interface.js"></script>
     <script src="src/Thermostat.js"></script>
