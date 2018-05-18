@@ -1,0 +1,36 @@
+* {
+  max-width: 450px;
+  margin: 0 auto;
+  font-family: "Courier", "Georgia", "Lucida Console";
+}
+
+
+body {
+  background-color: LavenderBlush;
+}
+
+#thermostat {
+  background-color: LightSkyBlue;
+  height: 500px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 20%;
+  box-shadow: 3px 3px;
+}
+
+#display {
+  background-color: Ivory;
+  margin: 100px 25px 25px 25px;
+  height: 80px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#buttons {
+  padding: 40px;
+}
+
+
+#cityWeather {
+  font-size: 25px;
+}
