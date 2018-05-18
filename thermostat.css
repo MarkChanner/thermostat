@@ -1,9 +1,8 @@
 * {
   max-width: 450px;
   margin: 0 auto;
-  font-family: "Courier", "Georgia", "Lucida Console";
+  font-family: 'Courier', 'Georgia', 'Lucida Console';
 }
-
 
 body {
   background-color: LavenderBlush;
@@ -29,7 +28,6 @@ body {
 #buttons {
   padding: 40px;
 }
-
 
 #cityWeather {
   font-size: 25px;
