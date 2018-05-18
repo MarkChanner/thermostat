@@ -1,7 +1,3 @@
-// var getReturnValue = $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
-//   return peopleResponse;
-// });
-
 $(document).ready(function() {
   var thermostat = new Thermostat();
   updateView();
